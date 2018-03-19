@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/planodefundo"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/btn_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Conectar Bluetooth"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_ligar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LIGAR BOMBA"
+        android:layout_marginTop="65dp" />
+
+    <Button
+        android:id="@+id/btn_desligar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DESLIGAR BOMBA"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"/>
+
+
+    <Button
+        android:id="@+id/btn_acender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LIGAR LED"
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:id="@+id/btn_apagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DESLIGAR LED"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:id="@+id/btn_atualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Atualizar dados"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txt_dadoatualizado"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="                                 "
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+
+    <TextView
+        android:text="Estado:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="295dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txt_estado"
+        android:text="       "
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="295dp" />
+
+    <TextView
+        android:text="Vazão:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="330dp"/>
+
+    <TextView
+        android:id="@+id/txt_vazao"
+        android:text="       "
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="330dp" />
+
+    <TextView
+        android:text="Temperatura:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="365dp"/>
+
+    <TextView
+        android:id="@+id/txt_temperatura"
+        android:text="      "
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="365dp"/>
+
+    <TextView
+        android:text="Nível do reservatório:"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"/>
+
+    <TextView
+        android:id="@+id/txt_nivel"
+        android:text="      "
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="400dp"/>
+
+
+</RelativeLayout>
